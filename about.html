@@ -1,1 +1,89 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>About Me | Gold Oduneye</title><link rel="stylesheet" href="style.css"></head><body><header><div class="nav"><a class="brand" href="index.html">Gold Oduneye</a><nav><a class="" href="index.html">Home</a><a class="active" href="about.html">About Me</a><a class="" href="experience.html">Experience</a><a class="" href="skills.html">Skills &amp; Tools</a><a class="" href="event-planning.html">Event Planning &amp; Management</a><a class="" href="contact.html">Contact</a></nav></div></header><main class="page"><p class="eyebrow">ABOUT ME</p><h1>Professional Background</h1><p>I am a customer service and operations professional based in Ogun State, Nigeria. I have practical experience supporting customers through WhatsApp, email, telephone and social media while coordinating orders, deliveries, bookings and service requests.</p><p>I enjoy helping customers get clear answers, resolving concerns professionally and following requests through to completion. I am comfortable managing multiple tasks, maintaining accurate records and working independently in a remote environment.</p><p>My background also includes client service and event planning and management, which strengthened my communication, coordination, problem-solving, negotiation and deadline-management skills.</p></main><footer>© 2026 Gold Oduneye</footer></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="My background combines customer service, client communication, logistics support, service coordination and business operations.">
+<meta name="theme-color" content="#0b5d4b">
+<title>About Me | Gold Oduneye</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="Gold Oduneye Home">
+      <span class="brand-mark">GO</span><span>Gold Oduneye<small>Customer Service & Remote Operations</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Main navigation"><a href="index.html" class="">Home</a><a href="about.html" class="active">About Me</a><a href="experience.html" class="">Experience</a><a href="skills.html" class="">Skills & Tools</a><a href="event-planning.html" class="">Event Planning & Management</a><a href="contact.html" class="">Contact</a></nav>
+    <button class="menu-btn" data-menu-open aria-label="Open navigation menu" aria-controls="mobile-drawer">☰</button>
+  </div>
+</header>
+<div class="drawer-overlay" data-overlay></div>
+<aside class="drawer" id="mobile-drawer" data-drawer aria-label="Mobile navigation">
+  <div class="drawer-top"><strong>Menu</strong><button class="drawer-close" data-menu-close aria-label="Close navigation menu">×</button></div>
+  <nav><a href="index.html" class="">Home</a><a href="about.html" class="active">About Me</a><a href="experience.html" class="">Experience</a><a href="skills.html" class="">Skills & Tools</a><a href="event-planning.html" class="">Event Planning & Management</a><a href="contact.html" class="">Contact</a></nav>
+</aside>
+
+<section class="page-hero"><div class="container"><span class="eyebrow">About Me</span><h1>A customer-focused professional with practical operations experience.</h1><p>My background combines customer service, client communication, logistics support, service coordination and business operations.</p></div></section>
+
+<section class="section">
+  <div class="container split">
+    <div>
+      <div class="section-head"><span class="eyebrow" style="color:var(--emerald)">Professional background</span><h2>People-first service, backed by organised processes.</h2></div>
+      <p>I have developed my customer service experience through roles that required consistent communication, follow-up, coordination and problem solving. I have supported customers through WhatsApp, email, telephone and social media while also keeping track of orders, deliveries, bookings and service requests.</p>
+      <p>My approach is simple: understand the customer's need, communicate clearly, take ownership of the next step and follow through until the issue or request has been properly addressed.</p>
+      <p>My additional background in event planning, catering and decoration has strengthened my ability to coordinate people, vendors, timelines and customer expectations in busy environments.</p>
+    </div>
+    <aside class="card">
+      <div class="kicker">Professional strengths</div>
+      <ul class="list">
+        <li>Clear and respectful customer communication</li>
+        <li>Consistent customer follow-up</li>
+        <li>Complaint handling and escalation</li>
+        <li>Order, delivery and service tracking</li>
+        <li>Record keeping and administrative support</li>
+        <li>Managing multiple priorities and deadlines</li>
+        <li>Remote communication and independent work</li>
+      </ul>
+    </aside>
+  </div>
+</section>
+<section class="section alt">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow" style="color:var(--emerald)">How I work</span><h2>Professional habits that support a dependable customer experience.</h2></div>
+    <div class="grid-3">
+      <article class="card"><h3>Listen & Understand</h3><p>I take time to understand the customer's actual request before deciding the next action.</p></article>
+      <article class="card"><h3>Communicate Clearly</h3><p>I provide practical updates and keep customers informed rather than leaving requests unresolved.</p></article>
+      <article class="card"><h3>Follow Through</h3><p>I track open tasks and coordinate the required next steps until the customer has a clear outcome.</p></article>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><h3>Gold Oduneye</h3><p>Customer Service • Customer Support • Remote Operations</p></div>
+      <div><h3>Navigate</h3><p><a href="about.html">About Me</a><br><a href="experience.html">Experience</a><br><a href="skills.html">Skills & Tools</a></p></div>
+      <div><h3>Contact</h3><p><a href="mailto:gbemisolaoduneye01@gmail.com">Email</a><br><a href="https://wa.me/2348124260037">WhatsApp</a><br><a href="tel:+2349034512364">Call</a></p></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Gold Oduneye. All rights reserved.</span><span>Ogun State, Nigeria</span></div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  const openBtn=document.querySelector('[data-menu-open]');
+  const closeBtn=document.querySelector('[data-menu-close]');
+  const drawer=document.querySelector('[data-drawer]');
+  const overlay=document.querySelector('[data-overlay]');
+  function open(){drawer.classList.add('open');overlay.classList.add('open');document.body.style.overflow='hidden';}
+  function close(){drawer.classList.remove('open');overlay.classList.remove('open');document.body.style.overflow='';}
+  if(openBtn) openBtn.addEventListener('click',open);
+  if(closeBtn) closeBtn.addEventListener('click',close);
+  if(overlay) overlay.addEventListener('click',close);
+  document.querySelectorAll('[data-drawer] a').forEach(a=>a.addEventListener('click',close));
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
+})();
+</script>
+
+</body></html>
